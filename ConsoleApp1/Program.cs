@@ -20,7 +20,7 @@ namespace ConsoleApp1
             }
             else
             {
-                Console.WriteLine("Время позднее, пора идти ехай");
+                Console.WriteLine("Время позднее, пора идти ехай!");
             }
             Console.ReadLine();
             #endregion
