@@ -46,6 +46,13 @@ namespace ConsoleApp1
             //}
             //Console.ReadLine();
             //#endregion
+            #region Arrays
+            //Type collections
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            string[] days = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскрессенье" };
+            Console.WriteLine(days[0]);
+            Console.ReadLine();
+            #endregion
         }
     }
 }
