@@ -50,7 +50,13 @@ namespace ConsoleApp1
             //Type collections
             int[] numbers = { 1, 2, 3, 4, 5 };
             string[] days = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскрессенье" };
+            List<string> str_list = new List<string>();
             Console.WriteLine(days[0]);
+            for (int i = 0; i < days.Count(); i++)
+                {
+                Console.WriteLine(days[i]);
+
+                }
             Console.ReadLine();
             #endregion
         }
